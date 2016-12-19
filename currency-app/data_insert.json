@@ -1,0 +1,57 @@
+var currencyTable = new mongoose.Schema({
+	countryName: String,
+	base: String,
+	currencyName: String,
+	symbol: String
+});
+
+db.CurrencyData.insert(
+   [
+     { countryName: "United States - USD", base: "USD", currencyName: "USD - US Dollar", symbol: "$" },
+     { countryName: "European Union - EUR", base: "EUR", currencyName: "EUR - Euro"  symbol: "€" },
+     { countryName: "United Arab Emirates - AED", base: "AED", currencyName: "AED - Emirati Dirham"  symbol: "د.إ" },
+     { countryName: "Afghanistan - AFN", base: "AFN", currencyName: "AFN - Afghan Afghani"  symbol: "؋" },
+     { countryName: "Albania - ALL", base: "ALL", currencyName: "ALL - Albanian Lek"  symbol: "Lek" },
+     { countryName: "Armenia - AMD", base: "AMD", currencyName: "AMD - Armenian Dram"  symbol: "դր"}, 
+     { countryName: "Netherlands Antilles - ANG", base: "ANG", currencyName: "ANG - Dutch Guilder"  symbol: "ƒ" },
+     { countryName: "Angola - AOA", base: "AOA", currencyName: "AOA - Angolan Kwanza"  symbol: "Kz" },
+     { countryName: "Argentina - ARS", base: "ARS", currencyName: "ARS - Argentine Peso"  symbol: "$" },
+     { countryName: "Australia - AUD", base: "AUD", currencyName: "AUD - Australian Dollar"  symbol: "$" },
+     { countryName: "Aruba - AWG", base: "AWG", currencyName: "AWG - Aruban or Dutch Guilder"  symbol: "ƒ" },
+     { countryName: "Azerbaijan - AZN", base: "AZN", currencyName: "AZN - Azerbaijani New Manat"  symbol: "ман" },
+     { countryName: "Bosnia and Herzegovina - BAM", base: "BAM", currencyName: "BAM - Bosnian Convertible Marka"  symbol: "KM" },
+     { countryName: "Barbados - BBD", base: "BBD", currencyName: "BBD - Barbadian or Bajan Dollar", symbol: "$" },
+     { countryName: "Bangladesh - BDT", base: "BDT", currencyName: "BDT - Bangladeshi Taka", symbol: "Tk" },
+     { countryName: "Bulgaria - BGN", base: "BGN", currencyName: "BGN - Bulgarian Lev", symbol: "лв" },
+     { countryName: "Bahrain - BHD", base: "BHD", currencyName: "BHD - Bahraini Dinar", symbol: "BD" },
+     { countryName: "Burundi - BIF", base: "BIF", currencyName: "BIF - Burundian Franc", symbol: "FBu" },
+     { countryName: "Bermuda - BMD", base: "BMD", currencyName: "BMD - Bermudian Dollar", symbol: "$" },
+     { countryName: "Brunei Darussalam - BND", base: "BND", currencyName: "BND - Bruneian Dollar", symbol: "$" }
+   ]
+)
+
+
+db.CurrencyData.insert(
+   [
+     { "countryName": "United States - USD", "base": "USD", "currencyName": "USD - US Dollar", "symbol": "$" },
+     { "countryName": "European Union - EUR", "base": "EUR", "currencyName": "EUR - Euro"  "symbol": "€" },
+     { "countryName": "United Arab Emirates - AED", "base": "AED", "currencyName": "AED - Emirati Dirham"  "symbol": "د.إ" },
+     { "countryName": "Afghanistan - AFN", "base": "AFN", "currencyName": "AFN - Afghan Afghani"  "symbol": "؋" },
+     { "countryName": "Albania - ALL", "base": "ALL", "currencyName": "ALL - Albanian Lek"  "symbol": "Lek" },
+     { "countryName": "Armenia - AMD", "base": "AMD", "currencyName": "AMD - Armenian Dram"  "symbol": "դր"}, 
+     { "countryName": "Netherlands Antilles - ANG", "base": "ANG", "currencyName": "ANG - Dutch Guilder"  "symbol": "ƒ" },
+     { "countryName": "Angola - AOA", "base": "AOA", "currencyName": "AOA - Angolan Kwanza"  "symbol": "Kz" },
+     { "countryName": "Argentina - ARS", "base": "ARS", "currencyName": "ARS - Argentine Peso"  "symbol": "$" },
+     { "countryName": "Australia - AUD", "base": "AUD", "currencyName": "AUD - Australian Dollar"  "symbol": "$" },
+     { "countryName": "Aruba - AWG", "base": "AWG", "currencyName": "AWG - Aruban or Dutch Guilder"  "symbol": "ƒ" },
+     { "countryName": "Azerbaijan - AZN", "base": "AZN", "currencyName": "AZN - Azerbaijani New Manat"  "symbol": "ман" },
+     { "countryName": "Bosnia and Herzegovina - BAM", "base": "BAM", "currencyName": "BAM - Bosnian Convertible Marka"  "symbol": "KM" },
+     { "countryName": "Barbados - BBD", "base": "BBD", "currencyName": "BBD - Barbadian or Bajan Dollar", "symbol": "$" },
+     { "countryName": "Bangladesh - BDT", "base": "BDT", "currencyName": "BDT - Bangladeshi Taka", "symbol": "Tk" },
+     { "countryName": "Bulgaria - BGN", "base": "BGN", "currencyName": "BGN - Bulgarian Lev", "symbol": "лв" },
+     { "countryName": "Bahrain - BHD", "base": "BHD", "currencyName": "BHD - Bahraini Dinar", "symbol": "BD" },
+     { "countryName": "Burundi - BIF", "base": "BIF", "currencyName": "BIF - Burundian Franc", "symbol": "FBu" },
+     { "countryName": "Bermuda - BMD", "base": "BMD", "currencyName": "BMD - Bermudian Dollar", "symbol": "$" },
+     { "countryName": "Brunei Darussalam - BND", "base": "BND", "currencyName": "BND - Bruneian Dollar", "symbol": "$" }
+   ]
+)
